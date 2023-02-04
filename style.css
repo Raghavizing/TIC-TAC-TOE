@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #ECF9FF ;
+}
+.header
+{
+    height: 8rem;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-size: 6rem;
+    color: #F8CBA6;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px black;
+}
+.game
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.score
+{
+    height: 12rem;
+    width: 15rem;
+    font-size: 3rem;
+    color: #FFFBEB;
+    text-align: left;
+    line-height: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 10%;
+    text-shadow: 1px 2px 2px black;
+}
+.s2
+{
+    color: #ED3A4E;
+}
+.s1
+{
+    color:#4A66F6;
+}
+.r
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+}
+.c
+{
+    height: 10rem;
+    width: 10rem;
+    margin: 0;
+}
+.c1
+{
+    border: 2px solid black;
+    border-left: 0;
+}
+.c2
+{
+    border: 2px solid black;
+}
+.c3
+{
+    border: 2px solid black;
+    border-right: 0;
+}
+.r1 .c
+{
+    border-top: 0;
+}
+.r3 .c
+{
+    border-bottom: 0;
+}
+.c img
+{
+    width: 100%;
+    height: 100%;
+}
+.title
+{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    width: 100%;
+    height: 6rem;
+    font-size: 5rem;
+    color: #FFE7CC;
+    margin-bottom: 2rem;
+}
+.btns
+{
+    display: block;
+}
+.reset, .mode
+{
+    color: #FFE7CC;
+    border-radius: 5%;
+    font-size: 2rem;
+    text-shadow:0px 1px 0px black;
+    background-color:#ED3A4E;
+    height: 3rem;
+    width: 8rem;
+    font-family: 'Kaushan Script', cursive;
+    border: none;
+    box-shadow: 0px 1px 0px black;
+    margin: 1rem;
+    margin-top: 14rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+.reset:hover,.mode:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
