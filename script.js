@@ -16,6 +16,7 @@ document.querySelector(".reset").addEventListener("click",function()
                 f[i+1]=-1;
         }
                 j=0;
+                l=0;
                 document.querySelector(".mode").innerHTML="Vs Com";
                 t = document.querySelector(".title");
                 t.innerHTML="Click On Any Box To Start!";
