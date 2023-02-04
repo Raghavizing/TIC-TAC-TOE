@@ -112,6 +112,7 @@ for(i=0;i<9;i++)
                         }
                         else if(k===3)
                         {
+                                j = 0;
                                 draw.play();
                                 y.innerHTML="DRAW!";
                                 y.style.color="#F8CBA6";
@@ -147,6 +148,7 @@ for(i=0;i<9;i++)
                         }
                      else if(k===2)
                         {
+                                j = 0;
                                 win.play();
                                 p2=p2+1;
                                 y.innerHTML="Player 2 Wins!";
@@ -169,6 +171,7 @@ for(i=0;i<9;i++)
                         }
                         else if(k===3)
                         {
+                                j = 0;
                                 draw.play();
                                 y.innerHTML="DRAW!";
                                 y.style.color="#F8CBA6";
@@ -250,6 +253,7 @@ function complay(m)
                         }
                      else if(k===2)
                         {
+                                j = 0;
                                 win.play();
                                 p2=p2+1;
                                 y.innerHTML="COM Wins!";
@@ -272,6 +276,7 @@ function complay(m)
                         }
                         else if(k===3)
                         {
+                                j = 0;
                                 draw.play();
                                 y.innerHTML="DRAW!";
                                 y.style.color="#F8CBA6";
